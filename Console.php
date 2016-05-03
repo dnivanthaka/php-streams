@@ -5,27 +5,27 @@ class Console{
     private $stdin;
     private $oformat;
 
-    public static $BLACK = "0;30";
-    public static $BLUE  = "0;34";
-    public static $GREEN = "0;32";
-    public static $CYAN  = "0;36";
-    public static $RED   = "0;31";
-    public static $PURPLE = "0;35";
-    public static $BROWN = "0;33";
-    public static $LIGHTGRAY = "0;37";
-    public static $DARKGRAY = "1;30";
-    public static $LIGHTBLUE = "1;34";
-    public static $LIGHTGREEN = "1;32";
-    public static $LIGHTCYAN  = "1;36";
-    public static $LIGHTRED = "1;31";
-    public static $LIGHTPURPLE = "1;35";
-    public static $YELLOW = "1;33";
-    public static $WHITE = "1;37";
+    const BLACK     = "0;30";
+    const BLUE      = "0;34";
+    const GREEN     = "0;32";
+    const CYAN      = "0;36";
+    const RED       = "0;31";
+    const PURPLE    = "0;35";
+    const BROWN     = "0;33";
+    const LIGHTGRAY = "0;37";
+    const DARKGRAY  = "1;30";
+    const LIGHTBLUE = "1;34";
+    const LIGHTGREEN = "1;32";
+    const LIGHTCYAN  = "1;36";
+    const LIGHTRED  = "1;31";
+    const LIGHTPURPLE = "1;35";
+    const YELLOW    = "1;33";
+    const WHITE     = "1;37";
 
-    public static $USCORE    = '4';
-    public static $BLINK     = '5';
-    public static $INVERSE   = '7';
-    public static $CONCEALED = '8';
+    const USCORE    = '4';
+    const BLINK     = '5';
+    const INVERSE   = '7';
+    const CONCEALED = '8';
 
 
     function __construct(){
