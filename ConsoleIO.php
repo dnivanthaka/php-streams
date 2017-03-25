@@ -1,5 +1,5 @@
 <?php
-class Console{
+class ConsoleIO{
     private $stderr;
     private $stdout;
     private $stdin;
